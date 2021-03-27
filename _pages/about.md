@@ -2,23 +2,21 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description:
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>1111 Engineering Dr. ECES 111A</p>
+    <p>Computer Science Dept, University of Colorado</p>
+    <p>Boulder, 80309 CO, USA</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD Student at CU Boulder co-advised by <a href="https://hiro-group.ronc.one/">Professor Alessandro Roncone</a> and <a href="http://cairo-lab.com/">Professor Bradley Hayes</a>. My research interests are in task and role allocation and enabling fluid coordination among human-robot teams. In order to incorporate robots into human teams, robots need explainable task representations and better understanding of the team dynamics to be an effective member. In particular, I want to answer the following questions: How can the robot decompose complex tasks and find the optimal role assignments for the team? How can the robot negotiate roles to optimize the performance of the team?
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, I worked with <a href="https://interactive.mit.edu/"> Professor Julie Shah</a> at MIT on flexible assembly lines for human-robot collaboration. I received my Masters in Engineering and Bachelors Degree in Computer Science at MIT in 2018 and 2015 respectively.

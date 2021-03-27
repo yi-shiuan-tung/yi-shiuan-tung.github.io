@@ -1,4 +1,4 @@
----
+%---
 layout: page
 permalink: /publications/
 title: publications
@@ -15,3 +15,4 @@ nav: true
 {% endfor %}
 
 </div>
+%
