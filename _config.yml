@@ -66,7 +66,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name:  # your blog must have a name for it to show up in the nav bar
+blog_name: projects # your blog must have a name for it to show up in the nav bar
 blog_description:
 permalink: /blog/:year/:title/
 
@@ -161,7 +161,7 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false
+enable_google_analytics:    true
 enable_panelbear_analytics: false
 enable_mansory:             true
 enable_math:                true
