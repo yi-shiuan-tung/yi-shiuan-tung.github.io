@@ -4,6 +4,7 @@ permalink: /teaching/
 title: teaching
 description:
 nav: true
+nav_order: 5
 ---
 
 <p>Spring 2023 Teaching Assistant for CSCI 3302 Introduction to Robotics</p>
