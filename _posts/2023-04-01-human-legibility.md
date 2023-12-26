@@ -3,6 +3,7 @@ layout: post
 title: Improving Human Legibility in Collaborative Robot Tasks through Augmented Reality and Workspace Preparation
 description: Improve human legibility by projecting virtual obstacles and rearranging objects in the workspace.
 date: 2023-04-01
+tags: publications
 ---
 
 ## Motivation
