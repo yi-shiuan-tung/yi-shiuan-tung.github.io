@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Improving Human Legibility in Collaborative Robot Tasks through Augmented Reality and Workspace Preparation
-description: Improve human legibility by projecting virtual obstacles and rearranging objects in the workspace.
+description: Blog post for VAM-HRI'23 workshop paper
 date: 2023-04-01
 tags: publications
 ---
@@ -33,7 +33,7 @@ First we define the legibility metric that scores an environment configuration i
 <img src="/blog/assets/img/human_legibility/env_leg_gt.png">
 </center>
 
-Given a ground truth goal $G_{true}$ (blue circle in the example below), we generate a snippet of the human's trajectory approaching the blue circle. In our experiments we use [visibility graphs](https://en.wikipedia.org/wiki/Visibility_graph). If the most likely goal is not the blue circle, we penalize by a fixed cost $c$. 
+Given a ground truth goal $G_{true}$ (blue circle in the example below), we generate a snippet of the human's trajectory approaching the blue circle. In our experiments we use [visibility graphs](https://en.wikipedia.org/wiki/Visibility_graph). If the most likely goal is not the blue circle, we penalize by a fixed cost $c$.
 
 <center>
 <img src="/blog/assets/img/human_legibility/env_leg_fixed_cost.png" width="500">
