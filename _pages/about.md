@@ -19,6 +19,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD Student at CU Boulder co-advised by <a href="https://hiro-group.ronc.one/">Professor Alessandro Roncone</a> and <a href="http://cairo-lab.com/">Professor Bradley Hayes</a>. My research interests are in task and role allocation and enabling fluid coordination among human-robot teams.
+I am a PhD Student at CU Boulder co-advised by <a href="https://hiro-group.ronc.one/">Professor Alessandro Roncone</a> and <a href="http://cairo-lab.com/">Professor Bradley Hayes</a>. My research interests are in leveraging environment design to enable fluid coordination among human-robot teams.
 
 Previously, I worked with <a href="https://interactive.mit.edu/"> Professor Julie Shah</a> at MIT on flexible assembly lines for human-robot collaboration. I received my Masters in Engineering and Bachelors Degree in Computer Science at MIT in 2018 and 2015 respectively.
