@@ -18,3 +18,29 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/solid",
   "font-awesome/regular"
 ;
+
+/* Mobile devices. With class="hidden-mobile" the element not show */
+@media (max-width: 576px) {
+  .hidden-mobile {
+    display: none;
+  }
+  /* Publications - Year display in mobile */
+  h2.year {
+    color: var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    margin-bottom: 2rem!important;
+    // reset
+    border-top: 0 !important;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+}
+
+/* Bib type style */
+p.bibtitle {
+color: var(--global-theme-color);
+font-weight: 400;
+font-size: 1.5em;
+text-align: center;
+// border-bottom: 1px solid #bbb;
+}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Minimizing Entropy for Prediction Problems
+title: Minimizing Entropy for Classification Problems
 description: 
 date: 2023-12-15
 ---

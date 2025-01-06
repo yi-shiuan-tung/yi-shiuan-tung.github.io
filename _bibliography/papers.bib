@@ -1,6 +1,42 @@
 ---
 ---
 
+@inproceedings{tung2024vamhri,
+    author={Tung, Yi-Shiuan and Luebbers, Matthew B. and Roncone, Alessandro and Hayes, Bradley},
+    title={Stereoscopic Virtual Reality Teleoperation for Human Robot Collaborative Dataset Collection},
+    booktitle={7th International Workshop on Virtual, Augmented, and Mixed-Reality for Human-Robot Interactions (VAM-HRI)},
+    year={2024},
+    organization={ACM},
+    month={Mar},
+    numpages={4},
+    publisher={ACM},
+    address={New York, NY, USA},
+    selected={false},
+    preview={teleop.png},
+    abstract={Large and diverse datasets are required to train general purpose models in NLP, computer vision, and robot manipulation. However, existing robotics datasets have single robots interacting in a static environment whereas in many real world scenarios, robots have to interact with humans or other dynamic agents. In this work, we present a virtual reality (VR) teleoperation system to enable data collection for human robot collaborative (HRC) tasks. The human operator using the VR system receives an immersive and high fidelity egocentric view with a stereoscopic depth effect, providing the situational awareness required to teleoperate the robot remotely to perform various tasks. We propose to collect data on a set of HRC tasks and introduce a taxonomy to categorize the tasks. We envision that our VR system will broaden the scope of tasks robots can perform with human collaborators and that the proposed dataset will enable the development of new algorithms for HRC.},
+    pdf={https://hiro-group.ronc.one/papers/2024_Tung_HRI_teleop.pdf}
+}
+
+@inproceedings{tung2024causalhri,
+    author={Tung, Yi-Shiuan and Gupta, Himanshu and Jiang, Wei and Hayes, Bradley and Roncone, Alessandro},
+    title={Causal Influence Detection for Human Robot Interaction},
+    booktitle={HRI '24: Workshop on Causal Learning for Human-Robot Interaction (Causal-HRI)},
+    year={2024},
+    organization={ACM},
+    month={Mar},
+    numpages={5},
+    publisher={ACM},
+    address={New York, NY, USA},
+    selected={false},
+    preview={causal_hri.png},
+    abstract={In human-robot and multi-agent interaction, the ego agent models the influence of its actions on the actions of the other agents to better anticipate what the other agents will do next, facilitating effective collaboration and enhanced safety. 
+    Prior work assumes that the ego agent has influence in all states when in reality the influence is only present in a subset of the scenarios. In this work, we propose to detect causal influence by measuring the mutual information of the ego agent's actions and the other agent's actions.
+    We evaluate our approach in a simulated pedestrian navigation and a collaborative cooking game.
+    Our results show that causal influence detection is a promising approach, yet it may yield low accuracy in situations where there is insufficient data.},
+    pdf={https://hiro-group.ronc.one/papers/2024_Tung_HRI_causal.pdf},
+}
+
+
 @article{tung2024hri,
   title={Workspace Optimization Techniques to Improve Prediction of Human Motion During Human-Robot Collaboration},
   author={Tung, Yi-Shiuan and Luebbers, Matthew B. and Roncone, Alessandro and Hayes, Bradley},
@@ -12,14 +48,13 @@
   blog={/blog/2024/workspace-optimization},
 }
 
-@article{tung2023legibility,
+@inproceedings{tung2023legibility,
   title={Improving Human Legibility in Collaborative Robot Tasks through Augmented Reality and Workspace Preparation},
   author={Tung, Yi-Shiuan and Luebbers, Matthew B. and Roncone, Alessandro and Hayes, Bradley},
   abstract={Understanding the intentions of human teammates is critical for safe and effective human-robot interaction. The canonical approach for human-aware robot motion planning is to first predict the human's goal or path, and then construct a robot plan that avoids collision with the human. This method can generate unsafe interactions if the human model and subsequent predictions are inaccurate. In this work, we present an algorithmic approach for both arranging the configuration of objects in a shared human-robot workspace, and projecting virtual obstacles in augmented reality, optimizing for legibility in a given task. These changes to the workspace result in more legible human behavior, improving robot predictions of human goals, thereby improving task fluency and safety. To evaluate our approach, we propose two user studies involving a collaborative tabletop task with a manipulator robot, and a warehouse navigation task with a mobile robot.},
   year={2023},
   journal={6th International Workshop on Virtual, Augmented, and Mixed-Reality for Human-Robot Interactions (VAM-HRI)},
   pdf={https://openreview.net/attachment?id=pQEGt53DMx&name=pdf},
-  blog={/blog/2023/human-legibility},
   selected={false},
   preview={navigation_exp.jpg}
 }
@@ -61,35 +96,35 @@
   preview={pokerrt.png}
 }
 
-@article{tung2018flexible,
+@mastersthesis{tung2018flexible,
   title={Simulation and Analytical Models of Flexible, Robotic Automotive Assembly Line},
   author={Yi-Shiuan Tung and Michael Kelessoglou and Matthew Gombolay and Julie Shah},
   abstract={Seeking to adapt to a rapidly changing market,
-the automotive industry is interested in flexible assembly lines
-that can handle disruptions resulting from machine failures,
-scheduling changes, or stochastic task times. In this paper, we
-propose a layout for transporting cars that incorporates mobile
-robotic platforms capable of moving off of the assembly line
-when disruptions occur. We use discrete event simulation to
-analyze the throughput of our flexible layout on a segment
-of an automotive assembly line, with the results indicating
-average speed improvements of 26% and 36% compared with a
-conventional layout for a single band and two bands with a finite
-buffer, respectively. In addition, we study the robustness of the
-flexible layout in the presence of additional inefficiencies inherent
-in the adoption of new technologies. Next, we present analytical
-models for throughput analyses of both layouts. We improve upon
-previous two-machine line analytical models by augmenting the
-state space to model every machine in a band, and report that the
-discrete models best approximate the throughput in most cases.},
-year={2019},
-journal={Technical Report},
-pdf={flexible_assembly_line.pdf},
-selected={false},
-preview={flexible_assembly.png}
+  the automotive industry is interested in flexible assembly lines
+  that can handle disruptions resulting from machine failures,
+  scheduling changes, or stochastic task times. In this paper, we
+  propose a layout for transporting cars that incorporates mobile
+  robotic platforms capable of moving off of the assembly line
+  when disruptions occur. We use discrete event simulation to
+  analyze the throughput of our flexible layout on a segment
+  of an automotive assembly line, with the results indicating
+  average speed improvements of 26% and 36% compared with a
+  conventional layout for a single band and two bands with a finite
+  buffer, respectively. In addition, we study the robustness of the
+  flexible layout in the presence of additional inefficiencies inherent
+  in the adoption of new technologies. Next, we present analytical
+  models for throughput analyses of both layouts. We improve upon
+  previous two-machine line analytical models by augmenting the
+  state space to model every machine in a band, and report that the
+  discrete models best approximate the throughput in most cases.},
+  year={2018},
+  journal={Technical Report},
+  pdf={flexible_assembly_line.pdf},
+  selected={false},
+  preview={flexible_assembly.png}
 }
 
-@article{tung2018flexibleassembly,
+@mastersthesis{tung2018flexibleassembly,
   title={Analytical and simulation models for flexible, robotic automotive assembly lines},
   author={Tung, Yi-Shiuan},
   abstract={To adapt to the rapidly changing market, the automotive industry is interested in flexible assembly lines that can handle disruptions due to machine failures or schedule changes. In this thesis, we propose a new assembly line layout (flexible layout) that uses mobile, robotic platforms to transport cars, which can move out of the line when disruptions occur to prevent blocking other cars on the line. We use discrete event simulation and analytical models to analyze the throughput of the new layout in a single band and two bands with a finite buffer. The simulation results show that the new layout achieves an average of 25.6% and 35.9% speed up over the conventional layout for the single band and two bands cases respectively. We improve previous two-machine line analytical models by augmenting the state of the Markov chain to model every machine in a band. We show that the augmented discrete Markov chain model predicts the throughput within 13% and 18% of the simulation throughput for the conventional and flexible layouts respectively. We further evaluate whether the flexible layout can improve its throughput by learning a policy for parking the platforms. By modeling the agents as independent learners, we apply single-agent reinforcement learning algorithms and show that the policy learned works well but suffers from lack of coordination.},
