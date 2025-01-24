@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Workspace Optimization Techniques to Improve Prediction of Human Motion During Human-Robot Collaboration
+title: Workspace Optimization Techniques to Improve Human Motion Prediction
 description: Blog post for HRI'24 paper
 date: 2024-01-12
 tags: publications
