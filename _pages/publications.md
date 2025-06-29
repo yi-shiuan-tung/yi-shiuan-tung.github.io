@@ -9,7 +9,7 @@ sections:
     text: "Workshop papers"
   - bibquery: "@misc|@phdthesis|@mastersthesis"
     text: "Thesis"
-years: [2024, 2023, 2022, 2018]
+years: [2025, 2024, 2023, 2022, 2018]
 nav: true
 nav_order: 1
 ---
