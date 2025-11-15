@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle:
 
@@ -19,6 +19,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD Student at CU Boulder co-advised by <a href="https://hiro-group.ronc.one/">Professor Alessandro Roncone</a> and <a href="http://cairo-lab.com/">Professor Bradley Hayes</a>. My research interests are in leveraging environment design to enable fluid coordination among human-robot teams.
+I am a PhD Student at CU Boulder co-advised by <a href="https://hiro-group.ronc.one/">Professor Alessandro Roncone</a> and <a href="http://cairo-lab.com/">Professor Bradley Hayes</a>. Previously, I worked with <a href="https://interactive.mit.edu/"> Professor Julie Shah</a> at MIT on flexible assembly lines for human-robot collaboration. I received my Masters in Engineering and Bachelors Degree in Computer Science at MIT in 2018 and 2015 respectively.
 
-Previously, I worked with <a href="https://interactive.mit.edu/"> Professor Julie Shah</a> at MIT on flexible assembly lines for human-robot collaboration. I received my Masters in Engineering and Bachelors Degree in Computer Science at MIT in 2018 and 2015 respectively.
+My research interests lie at the intersection of human-robot interaction, machine learning, and environment design. I develop algorithms that use <b>environment design</b> as a mechanism for improving intent inference, reward alignment, and fluency in human-robot collaboration. My work combines behavioral modeling (e.g., Boltzmann-rational agents, preference learning) with optimization and quality-diversity search to explore how modifying physical layouts or task structures improves alignment, trust, and shared understanding in real-world interactions.
