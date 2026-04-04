@@ -7,12 +7,19 @@ nav: true
 nav_order: 5
 ---
 
-Fall 2025 Teaching Assistant for CSCI 1200 Introduction to Computational Thinking
+## University of Colorado Boulder
 
-Spring 2023, 2025, Fall 2023 Teaching Assistant for [CSCI 3302 Introduction to Robotics](https://introduction-to-autonomous-robots.github.io/csci3302.html)
+| Semester | Course | Role |
+|----------|--------|------|
+| Fall 2025 | CSCI 1200 — Introduction to Computational Thinking | Teaching Assistant |
+| Spring 2025 | [CSCI 3302 — Introduction to Robotics](https://introduction-to-autonomous-robots.github.io/csci3302.html) | Teaching Assistant |
+| Fall 2023 | [CSCI 3302 — Introduction to Robotics](https://introduction-to-autonomous-robots.github.io/csci3302.html) | Teaching Assistant |
+| Spring 2023 | [CSCI 3302 — Introduction to Robotics](https://introduction-to-autonomous-robots.github.io/csci3302.html) | Teaching Assistant |
+| Fall 2020 | CSCI 2400 — Computer Systems | Teaching Assistant |
 
-Fall 2020 Teaching Assistant for CSCI 2400 Computer Systems
+## Massachusetts Institute of Technology
 
-Spring 2014 Tutor for 6.006 Introduction to Algorithms
-
-Spring 2013 Lab Assistant for 6.01 Introduction to Electrical Engineering and Computer Science
+| Semester | Course | Role |
+|----------|--------|------|
+| Spring 2014 | 6.006 — Introduction to Algorithms | Tutor |
+| Spring 2013 | 6.01 — Introduction to EECS | Lab Assistant |

@@ -43,3 +43,49 @@ p.bibtitle {
   font-size: 1.5em;
   text-align: center;
 }
+
+/* Homepage section headings */
+.post article > h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--global-theme-color);
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+/* Link underline animation */
+a {
+  transition: color 0.2s ease;
+}
+
+/* Teaching tables */
+.post table {
+  width: 100%;
+  margin-bottom: 1.5rem;
+
+  th {
+    background-color: var(--global-code-bg-color);
+    padding: 0.6rem 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  td {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  tr:hover td {
+    background-color: var(--global-code-bg-color);
+  }
+}
+
+/* Venue badges - rounded */
+.publications ol.bibliography li .abbr abbr {
+  border-radius: 4px;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+}

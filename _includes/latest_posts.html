@@ -1,9 +1,7 @@
 
-          <div class="news">
+          <div class="latest-posts">
             {% if site.latest_posts != blank -%}
             {%- assign latest_posts_size = site.posts | size -%}
-            <div class="table-responsive" {% if site.latest_posts.scrollable and latest_posts_size > 3 %}style="max-height: 60vw"{% endif %}>
-              <table class="table table-sm table-borderless">
               {%- assign latest_posts = site.posts -%}
               {% if site.latest_posts.limit %}
               {% assign latest_posts_limit = site.latest_posts.limit %}
@@ -11,24 +9,24 @@
               {% assign latest_posts_limit = latest_posts_size %}
               {% endif %}
               {% for item in latest_posts limit: latest_posts_limit %}
-                <tr>
-                  <th scope="row" style="width: 20%">{{ item.date | date: "%b %-d, %Y" }}</th>
-                  <td>
+                <div class="post-card">
+                  <div class="post-card-date">{{ item.date | date: "%b %-d, %Y" }}</div>
+                  <div class="post-card-body">
                     {% if item.redirect == blank %}
-                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                      <a href="{{ item.url | relative_url }}">
                     {% elsif item.redirect contains '://' %}
-                      <a class="news-title" href="{{ item.redirect }}" target="_blank">{{ item.title }}</a>
-                      <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg>
+                      <a href="{{ item.redirect }}" target="_blank">
                     {% else %}
-                      <a class="news-title" href="{{ item.redirect | relative_url }}">{{ item.title }}</a>
+                      <a href="{{ item.redirect | relative_url }}">
                     {% endif %}
-                  </td>
-                </tr>
+                      <h3 class="post-card-title">{{ item.title }}</h3>
+                    </a>
+                    {% if item.description %}
+                      <p class="post-card-desc">{{ item.description }}</p>
+                    {% endif %}
+                  </div>
+                </div>
               {%- endfor %}
-              </table>
-            </div>
           {%- else -%}
             <p>No posts so far...</p>
           {%- endif %}
