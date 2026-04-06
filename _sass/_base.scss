@@ -534,12 +534,16 @@ footer.sticky-bottom {
     line-height: 1.5;
 
     a.news-title {
-      color: var(--global-text-color);
+      color: var(--global-theme-color);
       text-decoration: none;
       font-weight: 500;
 
+      &::after {
+        content: " \2192";
+      }
+
       &:hover {
-        color: var(--global-theme-color);
+        text-decoration: underline;
       }
     }
   }
