@@ -1,6 +1,11 @@
 {% assign have_related_posts = false %}
+{% assign related_post_count = 0 %}
 
-{% for post in site.related_posts | limit: site.related_blog_posts.max_related %}
+{% for post in site.posts %}
+  {% if post.url == page.url or post.hide_from_related %}
+    {% continue %}
+  {% endif %}
+
   {% unless have_related_posts %}
     {% assign have_related_posts = true %}
     <br>
@@ -16,4 +21,9 @@
   <li class="my-2">
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </li>
+
+  {% assign related_post_count = related_post_count | plus: 1 %}
+  {% if related_post_count >= site.related_blog_posts.max_related %}
+    {% break %}
+  {% endif %}
 {% endfor %}
