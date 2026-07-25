@@ -1,8 +1,8 @@
 
           <div class="latest-posts">
             {% if site.latest_posts != blank -%}
-            {%- assign latest_posts_size = site.posts | size -%}
-              {%- assign latest_posts = site.posts -%}
+            {%- assign latest_posts = site.posts | where_exp: "post", "post.hide_from_latest != true" -%}
+            {%- assign latest_posts_size = latest_posts | size -%}
               {% if site.latest_posts.limit %}
               {% assign latest_posts_limit = site.latest_posts.limit %}
               {% else %}
